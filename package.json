@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JustBeingAbdi/DOuath.git"
+    "url": "git+https://github.com/JustBeingAbdi/Ouath-Clients.git"
   },
   "keywords": [
     "Discord",
@@ -20,9 +20,9 @@
   "author": "Abdi Hassan (JustBeingAbdi)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JustBeingAbdi/DOuath/issues"
+    "url": "https://github.com/JustBeingAbdi/Ouath-Clients/issues"
   },
-  "homepage": "https://github.com/JustBeingAbdi/DOuath#readme",
+  "homepage": "https://github.com/JustBeingAbdi/Ouath-Clients#readme",
   "dependencies": {
     "axios": "^0.21.1",
     "ejs": "^3.1.6",
