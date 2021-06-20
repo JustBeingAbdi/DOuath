@@ -32,7 +32,7 @@
     "inquirer": "^8.1.1",
     "jsonwebtoken": "^8.5.1",
     "node-fetch": "^2.6.1",
-    "ouath-clients": "^1.0.0",
+    "ouath-clients": "^1.1.1",
     "secure-random-string": "^1.1.3"
   }
 }

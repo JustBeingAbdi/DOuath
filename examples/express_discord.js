@@ -2,10 +2,9 @@
 
 // Discord Example
 
-
 let express = require("express");
-let DiscordClient = require("ouath-clients");
-let client = new DiscordClient('ClientId', 'ClientSecret');
+let Clients = require("ouath-clients");
+let client = new Clients.Discord('ClientID', 'ClientSecret');
 
 
 client.setScopes("identify");
@@ -23,11 +22,13 @@ app.get("/authorize", async(req,res) => {
 
 app.get("/callback", async(req,res) => {
     let code = req.query.code;
-    let data = await client.GetData(code);
+    let data = await client.getData(code);
     // Your own code after
 
     res.redirect("/");
 });
+
+
 
 
 app.listen(3000);
