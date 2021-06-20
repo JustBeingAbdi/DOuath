@@ -1,6 +1,6 @@
 {
   "name": "ouath-clients",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Ouath Provider for multiple ouaths",
   "main": "index.js",
   "scripts": {
