@@ -1,0 +1,34 @@
+{
+  "name": "douath",
+  "version": "1.0.0",
+  "description": "Ouath Provider for multiple ouaths",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustBeingAbdi/DOuath.git"
+  },
+  "keywords": [
+    "Discord",
+    "Github",
+    "Google",
+    "Facebook",
+    "Ouath"
+  ],
+  "author": "Abdi Hassan (JustBeingAbdi)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JustBeingAbdi/DOuath/issues"
+  },
+  "homepage": "https://github.com/JustBeingAbdi/DOuath#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "express-json": "^1.0.0",
+    "inquirer": "^8.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "secure-random-string": "^1.1.3"
+  }
+}
