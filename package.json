@@ -1,5 +1,5 @@
 {
-  "name": "DOuath",
+  "name": "ouath-clients",
   "version": "1.0.0",
   "description": "Ouath Provider for multiple ouaths",
   "main": "index.js",
