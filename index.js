@@ -3,6 +3,6 @@ let GoogleClient = require("./lib/GoogleClient");
 let Discord = DiscordClient
 let Google = GoogleClient;
 
-module.exports = DiscordClient
+module.exports = Discord, Google
 
 
