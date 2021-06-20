@@ -11,7 +11,7 @@ Current Ouath Clients offer Discord and Google but more will come like Twitter e
 
 ## Examples
 
-`
+```javascript
 
 // Discord Example
 
@@ -56,4 +56,4 @@ app.get("/callback", async(req,res) => {
 app.listen(3000);
 
 
-`
+```
